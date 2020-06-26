@@ -567,6 +567,17 @@ pdf2htmlEX.defaultViewer = new pdf2htmlEX.Viewer({});
 }catch(e){}
 </script>
 <title>Resume</title>
+<!-- GTAG -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-99907893-3"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-99907893-3', {
+        'page_path': window.location.href
+    });
+</script>
 </head>
 <body>
     <a style="position: fixed;display:flex;z-index: 100; border-radius: 30px;justify-content: center;align-items:center; text-decoration: none; color: black;box-shadow: 0px 0px 10px rgb(89, 89, 89); height: 40px;bottom: 5px; right: 10px; width: 100px;background-color: #fff;" href="Amit's Resume .pdf">Download</a>
